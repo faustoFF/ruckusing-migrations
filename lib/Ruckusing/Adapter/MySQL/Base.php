@@ -126,6 +126,7 @@ class Ruckusing_Adapter_MySQL_Base extends Ruckusing_Adapter_Base implements Ruc
                 'enum'          => array('name' => "enum", 'values' => array()),
                 'uuid'          => array('name' => "char", 'limit' => 36),
                 'char'          => array('name' => "char"),
+                'json'          => array('name' => 'json'),
         );
 
         return $types;
